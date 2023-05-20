@@ -1,0 +1,217 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+nav {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    background-color: white;
+}
+
+.logo {
+    height: 70px;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo a {
+    font-size: 30px;
+    font-weight: 700;
+    color: #293161;
+    text-decoration: none;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 60%;
+}
+
+.links a {
+    color: #293161;
+    padding-left: 15px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 25%;
+}
+
+.buttons button {
+    height: 30px;
+    width: 70px;
+    border-style: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.btn1 {
+    margin-right: 5px;
+    background-color: white;
+    color: #293161;
+}
+
+.btn2 {
+    background-color: #476CFF;
+    color: white;
+}
+
+.main {
+    width: 100%;
+    height: 600px;
+    background-color: #293161;
+}
+
+.head {
+    width: 30%;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.head a {
+    color: white;
+    padding-left: 15px;
+}
+
+.text {
+    width: 50%;
+    height: 490px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box h1 {
+    font-size: 50px;
+    color: white;
+}
+
+.image {
+    width: 50%;
+    height: 490px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1 {
+    display: flex;
+}
+
+.main1 {
+    height: 300px;
+    width: 100%;
+}
+
+.main1 .grow h1 {
+    color: #293161;
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+.frames div {
+    height: 200px;
+    width: 300px;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top: 50px;
+}
+
+.frames {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.frames h1 {
+    text-align: center;
+    color: #293161;
+}
+
+.frames p {
+    text-align: center;
+    color: #293161;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.main2 {
+    width: 100%;
+    height: 700px;
+    background-color: #FEEBE4;
+}
+
+.main2 h1 {
+    text-align: center;
+    color: #293161;
+    font-size: 45px;
+    padding-top: 50px;
+}
+
+.main2 p {
+    text-align: center;
+    color: #293161;
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.buttons1 {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons1 .btn1 {
+    height: 30px;
+    width: 65px;
+    color: #293161;
+    border: 2px solid #293161;
+    background-color: #FEEBE4;
+    border-radius: 7px;
+    margin-right: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.buttons1 .btn2 {
+    height: 30px;
+    width: 65px;
+    background-color: #FEEBE4;
+    text-decoration: underline;
+    color: #293161;
+    border-style: none;
+    white-space: nowrap;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.images {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: centers;
+}
+
+.images img {
+    margin: 30px;
+}
